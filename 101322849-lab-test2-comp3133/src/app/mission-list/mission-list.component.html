@@ -1,0 +1,17 @@
+<mat-form-field>
+    <input matInput type="text" [(ngModel)]="selectedYear" placeholder="Enter launch year">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="filterByYear()">Filter</button>
+  
+  <div *ngFor="let mission of missions" class="mission-card" (click)="showMissionDetails(mission)">
+    <mat-card>
+      <mat-card-content>
+        <h3>{{ mission.mission_name }}</h3>
+        <p><strong>Launch Year:</strong> {{ mission.launch_year }}</p>
+        <p><strong>Details:</strong> {{ mission.details }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
+  
+

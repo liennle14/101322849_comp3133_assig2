@@ -1,0 +1,24 @@
+
+.mission-container {
+    margin: 10px;
+  }
+  
+  .mission-card {
+    width: 95%;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Adjust styles for input and button as needed */
+  input[type="text"], button {
+    margin: 10px;
+  }
+
+  input[type="text"]{
+    height: auto;
+  }
+  
