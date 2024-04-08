@@ -8,7 +8,7 @@ import { User } from './user';
   providedIn: 'root'
 })
 export class AuthenticationService {
-  private baseUrl = 'https://101322849-comp3133-assig2.vercel.apps';
+  private baseUrl = 'https://one01322849-comp3133-assignment1.onrender.com';
 
   constructor(private http: HttpClient) { }
 
