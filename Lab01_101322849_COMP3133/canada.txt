@@ -1,4 +1,0 @@
-country,year,population
-Canada,2017,36290000
-Canada,2018,36690000
-Canada,2019,37060000

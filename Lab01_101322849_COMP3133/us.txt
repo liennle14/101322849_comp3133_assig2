@@ -1,4 +1,0 @@
-country,year,population
-United States,2017,325700000
-United States,2018,327200000
-United States,2019,328200000
