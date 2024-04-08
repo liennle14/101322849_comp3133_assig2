@@ -1,0 +1,25 @@
+.view-employee {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+    background-color: #fff; 
+  }
+  
+  .view-employee h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333; 
+  }
+
+.view-employee button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

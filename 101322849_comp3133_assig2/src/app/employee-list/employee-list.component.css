@@ -1,0 +1,40 @@
+.employee-list-container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.employee-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-list-container button {
+    background-color: lightseagreen;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px; 
+    border: 5px solid lightseagreen;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-right: 5px solid lightseagreen;
+}
+
+table tr {
+    text-align: left;
+    border: 5px solid lightseagreen;
+}
+
+table th {
+    background-color: #333;
+    color: lightseagreen;
+}

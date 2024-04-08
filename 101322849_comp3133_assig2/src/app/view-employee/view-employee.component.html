@@ -1,0 +1,6 @@
+<div class="view-employee" *ngIf="selectedEmployee">
+    <h3>Employee First Name: {{selectedEmployee.first_name}}</h3>
+    <h3>Employee Last Name: {{selectedEmployee.last_name}}</h3>
+    <h3>Employee Email: {{selectedEmployee.email}}</h3>
+    <button (click)="goBack()">Back</button>
+  </div>
