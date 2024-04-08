@@ -8,7 +8,7 @@ import { User } from './user';
   providedIn: 'root'
 })
 export class AuthenticationService {
-  private baseUrl = 'http://localhost:4000';
+  private baseUrl = 'https://101322849-comp3133-assig2.vercel.app:4200';
 
   constructor(private http: HttpClient) { }
 
